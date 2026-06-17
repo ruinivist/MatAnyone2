@@ -1088,4 +1088,4 @@ with gr.Blocks(theme=gr.themes.Monochrome(), css=my_custom_css) as demo:
     gr.Markdown(article)
 
 demo.queue()
-demo.launch(debug=True, share=True)
+demo.launch(debug=True, share=False)
